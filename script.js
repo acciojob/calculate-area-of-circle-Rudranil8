@@ -1,7 +1,7 @@
  function calculateArea() {
-            // Get the radius from the user using the prompt() function
-            let radius = prompt("Enter the radius of the circle:");
-            // write you code here and display the result to the user
-           
+	 let radius = prompt("Enter the radius of the circle:");
+	 let p=3.14;
+	 let x=p*radius*radius;
+	 alert(`the area of the circle with radius ${radius} is ${x}`);
 }
 calculateArea();
